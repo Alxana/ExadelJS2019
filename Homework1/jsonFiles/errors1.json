@@ -1,0 +1,40 @@
+[
+	{
+		"keyword": "type",
+		"dataPath": ".myPromises",
+		"schemaPath": "#/properties/myPromises/type",
+		"params": {
+			"type": "array"
+		},
+		"message": "should be array"
+	},
+	{
+		"keyword": "type",
+		"dataPath": ".screenshot",
+		"schemaPath": "#/properties/screenshot/type",
+		"params": {
+			"type": "null"
+		},
+		"message": "should be null"
+	},
+	{
+		"keyword": "type",
+		"dataPath": ".elementText",
+		"schemaPath": "#/properties/elementText/type",
+		"params": {
+			"type": "string"
+		},
+		"message": "should be string"
+	},
+	{
+		"keyword": "enum",
+		"dataPath": ".config",
+		"schemaPath": "#/properties/config/enum",
+		"params": {
+			"allowedValues": [
+				"Common"
+			]
+		},
+		"message": "should be equal to one of the allowed values"
+	}
+]

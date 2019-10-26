@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "flag": {
+      "type": "boolean"
+    },
+    "myPromises": {
+      "type": "array"
+    },
+    "element": {
+      "type": "object"
+    },
+    "screenshot": {
+      "type": "null"
+    },
+    "elementText": {
+      "type": "string"
+    },
+    "allElementsText": {
+      "pattern": "const"
+    },
+    "counter": {
+      "exclusiveMinimum": 10
+    },
+    "config": {
+      "enum": [
+        "Common"
+      ]
+    },
+    "const": {
+      "pattern": "([f|F][i|I][r|R][s|S][t|T])"
+    },
+    "parameters": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8
+    },
+    "description": {
+      "type": "string",
+      "exclusiveMinimum": 5,
+      "exclusiveMaximum": 13
+    }
+  }
+}

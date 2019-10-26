@@ -1,0 +1,14 @@
+{
+	"flag": true,
+	"type": {},
+	"myPromises": [1,2,3],
+	"element": {},
+	"screenshot": null,
+	"elementText": "",
+	"allElementsText": ["const"],
+	"counter": "12",
+	"config": "Common",
+	"const": "fIrSt",
+	"parameters": [3,"","add","delete","update","more","--",false],
+	"description": "my first pr"
+}

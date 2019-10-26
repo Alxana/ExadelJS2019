@@ -1,0 +1,49 @@
+[
+	{
+		"keyword": "type",
+		"dataPath": ".flag",
+		"schemaPath": "#/properties/flag/type",
+		"params": {
+			"type": "boolean"
+		},
+		"message": "should be boolean"
+	},
+	{
+		"keyword": "type",
+		"dataPath": ".element",
+		"schemaPath": "#/properties/element/type",
+		"params": {
+			"type": "object"
+		},
+		"message": "should be object"
+	},
+	{
+		"keyword": "pattern",
+		"dataPath": ".allElementsText",
+		"schemaPath": "#/properties/allElementsText/pattern",
+		"params": {
+			"pattern": "const"
+		},
+		"message": "should match pattern \"const\""
+	},
+	{
+		"keyword": "enum",
+		"dataPath": ".config",
+		"schemaPath": "#/properties/config/enum",
+		"params": {
+			"allowedValues": [
+				"Common"
+			]
+		},
+		"message": "should be equal to one of the allowed values"
+	},
+	{
+		"keyword": "minItems",
+		"dataPath": ".parameters",
+		"schemaPath": "#/properties/parameters/minItems",
+		"params": {
+			"limit": 8
+		},
+		"message": "should NOT have fewer than 8 items"
+	}
+]

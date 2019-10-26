@@ -1,0 +1,7 @@
+{
+  "name": "Exadel",
+  "version": "1.0.0",
+  "dependencies": {
+    "ajv": "latest"
+  }
+}
