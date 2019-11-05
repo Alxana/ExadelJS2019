@@ -37,19 +37,3 @@ console.log("\nRenting a car transporter is successful");
 carPark.rent("nm123gh", "Jacob R", "1.1.2020", 7, 10);
 
 carPark.showAvailable();
-
-/*
-car.rent();
-car.rent("Max F", "20.12.2019");
-car2.rent("Max F", "20.12.2019", 5);
-
-car.return();
-
-trailer.rent("Mark J", "12.12.2019", 6, 300);
-trailer.rent("Mark J", "12.12.2019", 6, 250);
-trailer.rent("Mark J", "12.12.2019", 9, 250);
-
-carTransporter.rent("Jacob R", "1.1.2020", 7, 11);
-carTransporter.rent("Jacob R", "1.1.2020", 7, 10);
-
-trailer.return();*/

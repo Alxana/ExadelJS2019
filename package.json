@@ -2,6 +2,10 @@
   "name": "Exadel",
   "version": "1.0.0",
   "dependencies": {
-    "ajv": "latest"
+    "XLSX": "latest",
+    "ajv": "latest",
+    "exceljs": "^3.3.0",
+    "xlsjs": "^1.0.1",
+    "xlsx": "^0.15.1"
   }
 }
